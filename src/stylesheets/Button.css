@@ -1,0 +1,29 @@
+.button-container {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    /* el boton va a ocupar el espacios que haya y si hay mas botones se divide de manera equitativa */
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+    background-color: #7e7d7d;
+    color: rgb(223, 215, 215);
+    border-radius: 15px;
+    border: 4px solid #1a1a1b;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-container:hover {
+    background-color: #7b7a7a;
+}
+
+.operator {
+    background-color: #08117d;
+}
+
+.operator:hover {
+    background-color: #0e1dbd;
+}
